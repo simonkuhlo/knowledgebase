@@ -1,0 +1,25 @@
+<div class="fc-row lv-list_e">
+    <div class="lv-list_e_p">
+        <p>
+            {{element.item.name}}
+
+        </p>
+    </div>
+{% if element.item.relatedFile %}
+<a href="{{element.item.relatedFile.path}}">
+    <div class="fc-row lv-list_e_b button_blue">
+        ❓
+    </div>
+</a>
+{% endif %}
+<a href="/">
+<div class="fc-row lv-list_e_b button_green">
+    ✏️
+</div>
+</a>
+<a href="/">
+<div class="fc-row lv-list_e_b button_red">
+    🗑️
+</div>
+</a>
+</div>

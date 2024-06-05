@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+    color: none;
+}
+
+.cl-main{
+    
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lv-header{
+    text-align: center;
+}
+.lv-list{
+    width: 100%;
+    max-width: 500px;
+    min-width: min-content;
+    height: 100%;
+    background: lightgrey;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    gap: 2px;
+    padding: 5px 5px 5px 5px;
+    z-index: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.lv-list_e{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: start;
+    gap: 2px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 5px;
+    background-color: lightyellow;
+}
+
+.lv-list_e_p {
+    width: 100%;
+}
+
+.lv-list_e_p p{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.lv-list_e_b{
+    height: 80%;
+    aspect-ratio: 1;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.lv-list_e_b:hover{
+    transition-duration: 0.2s;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.button_red {
+    background-color: lightcoral;
+    border-color: red;
+}
+
+.button_blue {
+    background-color: lightblue;
+    border-color: blue;
+}
+
+.button_green {
+    background-color: lightgreen;
+    border-color: green;
+}

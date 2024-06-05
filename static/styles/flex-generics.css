@@ -1,0 +1,16 @@
+.fc-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.fc-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.fc-center {
+    display: flex;
+    align-items: center;
+    
+}
+    

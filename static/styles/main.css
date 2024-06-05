@@ -1,0 +1,11 @@
+.main-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    min-height: 50px;
+    
+}

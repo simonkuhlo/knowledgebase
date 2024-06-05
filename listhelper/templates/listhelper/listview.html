@@ -1,0 +1,24 @@
+
+{% extends 'main.html' %}
+
+{% block content %}
+    {% load static %}
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'styles/listview.css' %}">
+
+
+    <div class="fc-column fc-center">
+        <div class="fc-column lv-header">
+            <h2>{{checklist_info.name}}</h2>
+            <p>{{checklist_info.description}}</p>
+        </div>
+        <div class="fc-column lv-list">
+        {% for element in checklist_elements%}
+            {% if editmode %}
+                {% include 'listhelper/inc/editablelistelement.html'%}
+            {% else %}
+                {% include 'listhelper/inc/listelement.html'%}
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+{% endblock %}
