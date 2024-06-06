@@ -11,5 +11,5 @@ urlpatterns = [
     
     #path('item/view/<itemId>', views.newChecklistItem, name = 'list.checklist'), #TODO
     #path('item/edit/<itemId>', views.newChecklistItem, name = 'list.checklist'), #TODO
-    #path('item/new/', views.newChecklistItem, name = 'list.checklist'), #TODO
+    #path('item/new/', views.newChecklistItem, name = 'list.checklist'), #TODO#
 ]
